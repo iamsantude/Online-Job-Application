@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Job application form</title>
+	<link rel="stylesheet"  href="<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<style>
+		body{
+			background-color: lightskyblue;
+			font-family: sans-serif;
+			margin: 0;
+		}
+		h2{
+			background-color: royalblue;
+			text-align: center;
+			padding: 10px;
+			color: white;
+
+		}
+		td{
+			padding: 20px;
+		}
+		textarea{
+			border-radius: 10px;
+		}
+		input{
+			height: 25px;
+			border-radius: 10px;
+		}
+		input:focus,textarea:focus{
+			outline: none;
+			border: 2px solid blue;
+		}
+		.button{
+			 background-color: royalblue;
+			 color: white;
+			 font-size: 18px;
+			 padding: 0px 25px;
+			 border: none;
+			 margin-bottom: 30px;
+		}
+		.button:hover{
+			cursor: pointer;
+			box-shadow: 5px 5px 5px blue;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">Online Job application form</h1>
+	<form>
+		<div id="personal-information">
+			<h2>Personal Information</h2>
+			<table width="100%">
+				<tr>
+					<td>First Name</td>
+					<td>
+						<input type="text" size="25" placeholder="First Name">
+					</td>
+					<td>Middle Name</td>
+					<td>
+						<input type="text" size="25" placeholder="Middle Name">
+					</td>
+					<td>Last Name</td>
+					<td>
+						<input type="text" size="25" placeholder="Last Name">
+					</td>
+				</tr>
+				<tr>
+					<td>Father's Name</td>
+					<td>
+						<input type="text" size="25" placeholder="Father's Name">
+					</td>
+					<td>Mather's Name</td>
+					<td>
+						<input type="text" size="25" placeholder="Mather's Name">
+					</td>
+				</tr>
+				<tr>
+					<td>Current Address</td>
+					<td>
+						<textarea rows="5" cols="30"></textarea>
+					</td>
+					<td>Permanent Address</td>
+					<td>
+						<textarea rows="5" cols="30"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone Number</td>
+					<td>
+						<input type="number" placeholder="enter mobile number">
+					</td>
+					<td>Email Address</td>
+					<td>
+						<input type="text" name="email" placeholder="abc@xyz.com">
+					</td>
+				</tr>
+				<tr>
+					<td>Home Phone Number</td>
+					<td>
+						<input type="number" placeholder="enter mobile number">
+					</td>
+				<td>Alternative Number</td>
+					<td>
+						<input type="number" placeholder="enter mobile number">
+					</td>
+				</tr>
+				<tr>
+					<td>Date of birth</td>
+					<td>
+						<input type="date">
+					</td>
+					<td>Place of Birth</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Select Gender</td>
+					<td>
+						<input type="radio" name="gender" value="male">Male
+					</td>
+					<td>
+						<input type="radio" name="gender" value="female">Female
+					</td>
+					<td>
+						<input type="radio" name="gender" value="Others">Others
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<form>
+		<div id="other-deatels">
+			<table width="100%">
+			<h2>Other Deatels</h2>
+			<tr>
+					<td colspan="2">Language Known</td>
+					<td>
+						<input type="radio"  value="English">English
+					</td>
+					<td>
+						<input type="radio"  value="Hindi">Hindi
+					</td>
+					<td>
+						<input type="radio"  value="Bangla">Bangla
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Select Hobbies</td>
+					<td>
+						<input type="radio" value="Gardening">Gardening
+					</td>
+					<td>
+						<input type="radio" value="Postcard">Postcard colleting
+					</td>
+					<td>
+						<input type="radio" value="Prograimng">Programing
+					</td>
+				</tr>
+				<tr>
+					<td>Achivement</td>
+					<td>
+						<textarea rows="5" cols="30" placeholder="Enter Your Achivement"></textarea>
+					</td>
+					<td>Personility</td>
+					<td>
+						<textarea rows="5" cols="30" placeholder="Enter Your Personility"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Other Activite's</td>
+					<td>
+						<textarea rows="5" cols="60" placeholder="enter your activitie's"></textarea>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<form>
+		<div id="education-deatels">
+			<table width="100%">
+			<h2>Education Deatels</h2>
+			<tr>
+				<td>Degree</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Post Gradute</option>
+						<option>Under Gradute</option>
+						<option>Higher Secondary</option>
+						<option>Secondary</option>
+						<option>others</option>
+					</select>
+				</td>
+				<td>Year of complitions</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>2023</option>
+						<option>2022</option>
+						<option>2021</option>
+						<option>2020</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+						<option>2013</option>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+					</select>
+				</td>
+				<td>Marks</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Percentage</option>
+						<option>CGPA</option>
+					</select>
+					<input type="Number" size="10" placeholder="Marks">
+				</td>
+				<td>University</td>
+				<td>
+					<input type="text" size="25" placeholder="University Name">
+				</td>
+			</tr>
+				<tr>
+				<td>Degree</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Post Gradute</option>
+						<option>Under Gradute</option>
+						<option>Higher Secondary</option>
+						<option>Secondary</option>
+						<option>others</option>
+					</select>
+				</td>
+				<td>Year of complitions</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>2023</option>
+						<option>2022</option>
+						<option>2021</option>
+						<option>2020</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+						<option>2013</option>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+					</select>
+				</td>
+				<td>Marks</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Percentage</option>
+						<option>CGPA</option>
+					</select>
+					<input type="Number" size="10" placeholder="Marks">
+				</td>
+				<td>University</td>
+				<td>
+					<input type="text" size="25" placeholder="University Name">
+				</td>
+			</tr>
+			<tr>
+				<td>Degree</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Post Gradute</option>
+						<option>Under Gradute</option>
+						<option>Higher Secondary</option>
+						<option>Secondary</option>
+						<option>others</option>
+					</select>
+				</td>
+				<td>Year of complitions</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>2023</option>
+						<option>2022</option>
+						<option>2021</option>
+						<option>2020</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+						<option>2013</option>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+					</select>
+				</td>
+				<td>Marks</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Percentage</option>
+						<option>CGPA</option>
+					</select>
+					<input type="Number" size="10" placeholder="Marks">
+				</td>
+				<td>Borad</td>
+				<td>
+					<input type="text" size="25" placeholder="bord name">
+				</td>
+			</tr>
+			<tr>
+				<td>Degree</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Post Gradute</option>
+						<option>Under Gradute</option>
+						<option>Higher Secondary</option>
+						<option>Secondary</option>
+						<option>others</option>
+					</select>
+				</td>
+				<td>Year of complitions</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>2023</option>
+						<option>2022</option>
+						<option>2021</option>
+						<option>2020</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+						<option>2013</option>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+					</select>
+				</td>
+				<td>Marks</td>
+				<td>
+					<select>
+						<option>Select</option>
+						<option>Percentage</option>
+						<option>CGPA</option>
+					</select>
+					<input type="Number" size="10" placeholder="Marks">
+				</td>
+				<td>Borad</td>
+				<td>
+					<input type="text" size="25" placeholder="borad name">
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+</form>
+<form>
+		<div id="experiance">
+			<table width="100%" border="2" align="center">
+			<h2>Projects/Internship</h2>
+			<thead>
+				<td width="25" align="center">SL. No.</td>
+				<td align="center">Company</td>
+				<td align="center">Project Title</td>
+				<td align="center">Duration</td>
+			</thead>
+			<tr>
+				<td>1</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</form>
+	<form>
+		<div id="account">
+			<table width="100%">
+				<h2>Account Deatels</h2>
+				<tr>
+					<td>Account Number</td>
+					<td>
+						<input type="number" size="25" placeholder="Account Number">
+					</td>
+					<td>Branch Name</td>
+					<td>
+						<input type="text" placeholder="Branch Name">
+					</td>
+				</tr>
+				<tr>
+					<td>IFCS Code</td>
+					<td>
+						<input type="text" placeholder="IFCS Code">
+					</td>
+					<td>MICR Code</td>
+					<td>
+						<input type="text" placeholder="MICR Code">
+					</td>
+				</tr>
+				<tr>
+					<td>PAN Card Number</td>
+					<td>
+						<input type="text" placeholder="PAN Card Number">
+					</td>
+				</tr>
+				<tr>
+					<td>Adhar Card Number</td>
+					<td>
+						<input type="number" placeholder="Adhar card number">
+					</td>
+					<td>Pasport Number</td>
+					<td>
+						<input type="number" placeholder="Pasport number">
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<form>
+		<div id="upload">
+			<table width="100%">
+				<h2>Upload Photo & Signature</h2>
+				<h3 align="center">Enter Your Current photo and Signature</h3>
+				<tr rowspan="2">
+					<td>
+						<form name="" method="" action="">
+						<input type="file" accept=".jpg">
+						</form>
+						<td>Upload Your Photo in jpg format</td>
+					</td>
+					<td>
+						<form name="" method="" action="">
+						<input type="file" accept=".jpg">
+						</form>
+						<td>Upload Your Signature in jpg format</td>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<form>
+		<div id="your-choice">
+			<h2>Your choice</h2>
+			<table width="100%">
+				<tr>
+					<td>Are You ready to go in abroad</td>
+					<td>
+						<input type="checkbox" name="yes" value="yes">YES
+					</td>
+					<td>
+						<input type="checkbox" name="no" value="no">NO
+					</td>
+				</tr>
+				<tr>
+					<td>Which shift are you want</td>
+					<td>
+						<input type="checkbox" name="time" value="morning">Morning
+					</td>
+					<td>
+						<input type="checkbox" name="time" value="noon">Noon
+					</td>
+					<td>
+						<input type="checkbox" name="time" value="evening">Evening
+					</td>
+				</tr>
+				<tr>
+					<td>Are you fressers</td>
+					<td>
+						Yes<input type="checkbox" name="yes" value="yes">
+					</td>
+					<td>
+						No<input type="checkbox" name="no" value="no">
+					</td>
+				</tr>
+				<tr>
+					<td>preffer job location's</td>
+					<td>
+						<select>
+							<option>Location 1</option>
+							<option>Kolkata</option>
+							<option>Bengalore</option>
+							<option>Bhubaneswar</option>
+							<option>Hyderabad</option>
+							<option>Mumbai</option>
+							<option>Channi</option>
+						</select>
+					</td>
+					<td>
+						<select>
+							<option>Location 2</option>
+							<option>Kolkata</option>
+							<option>Bengalore</option>
+							<option>Bhubaneswar</option>
+							<option>Hyderabad</option>
+							<option>Mumbai</option>
+							<option>Channi</option>
+						</select>
+					</td>
+					<td>
+						<select>
+							<option>Location 3</option>
+							<option>Kolkata</option>
+							<option>Bengalore</option>
+							<option>Bhubaneswar</option>
+							<option>Hyderabad</option>
+							<option>Mumbai</option>
+							<option>Channi</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<div>
+		<table>
+			<tr>
+				<td>
+					<input type="checkbox" name="right" value="yes">
+				</td>
+				<td>This is to infrom that,I have infromatation that I put my all deatels right,with regerds in my sence.</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table width=50% align="center">
+			<tr>
+				<td>
+					<input type="button" name="submit" value="Submit" class="button">
+				</td>
+				<td>
+					<input type="button" name="reset" value="Reset" class="button">
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="main-footer">
+		<h2>Copyright &copy; 2020, Online Job application From</h2>
+		<p align="center">All Rights Reserved</p>
+		<p align="center">Developed & Maintaince by Santu De</p>
+	</div>
+
+</body>
+</html>
